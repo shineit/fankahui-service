@@ -12,5 +12,9 @@
     "loopback-explorer": "~1.1.0",
     "loopback-push-notification": "~1.2.0"
   },
-  "name": "fankahui-service"
+  "name": "fankahui-service",
+  "devDependencies": {
+    "qs": "^0.6.6",
+    "superagent": "^0.18.0"
+  }
 }
