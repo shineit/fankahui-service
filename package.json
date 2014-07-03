@@ -3,7 +3,8 @@
   "main": "app.js",
   "bin": "server.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "test": "NODE_ENV=test node_modules/.bin/mocha"
   },
   "dependencies": {
     "loopback": "1.x >=1.7.0"

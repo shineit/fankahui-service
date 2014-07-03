@@ -1,0 +1,49 @@
+[
+  {
+    "id": "af968c00fcaf8b0a",
+    "createdAt": 1386235335,
+    "displayName": "泛盈科技业主",
+    "email": "owner@fankahui.com",
+    "idcard": "432828198307052525",
+    "male": true,
+    "name": "新业主",
+    "password": "123456",
+    "phone": "18912345678",
+    "roles": [
+      "user",
+      "owner"
+    ],
+    "username": "18912345678"
+  },
+  {
+    "id": "98ec115f3a49f84c",
+    "createdAt": 1392795980,
+    "displayName": "泛盈科技业主",
+    "email": "owner@fankahui.com",
+    "idcard": "432828198307052525",
+    "male": true,
+    "name": "新业主",
+    "password": "C75DAEFD-7442-4FDB-B2AC-FF28E3E4F272",
+    "phone": "18912345678",
+    "roles": [
+      "user",
+      "owner"
+    ],
+    "updateAt": 1392794177.011,
+    "username": "C75DAEFD-7442-4FDB-B2AC-FF28E3E4F272@fankahui.com"
+  },
+	{
+	  "name": "新业主",
+	  "displayName": "泛盈科技业主",
+	  "idcard": "320103197912162012",
+	  "phone": "1890000000",
+	  "email": "fankahui@fankahui.com",
+	  "male": true,
+	  "createdAt": 1394259603,
+	  "username": "81AC91D5-3CC1-40E1-95C3-2AA232006101@fankahui.com",
+		"password": "81AC91D5-3CC1-40E1-95C3-2AA232006101",
+	  "updateAt": 1394257628.8239998817,
+	  "roles": ["system"],
+	  "id": "8afa824fbcd7e8a1"
+	}
+]

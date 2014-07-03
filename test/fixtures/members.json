@@ -1,0 +1,58 @@
+[ 
+  {
+    "name": "hello member",
+    "code": "2013042601",
+    "email": "hello@qq.com",
+    "phone": "18914522145",
+    "userID": "af968c00fcaf8b0a",
+    "deliveryAddress": [
+      {
+        "address": "新街口2号",
+        "recipient": "李四",
+        "phone": "18912345678"
+      }
+    ],
+    "merchant": {
+      "merchantID": "c82e1197884d8806"
+    },
+		"account": {
+			"name": "gbo",
+			"balance": 10000
+		}
+  },
+  {
+    "_id": "d64047a8368218b0",
+    "name": "oGsPwt7oAe-qh-0wG1Idg4ezE0PM",
+    "code": "oGsPwt7oAe-qh-0wG1Idg4ezE0PM",
+    "deliveryAddress": [
+      {
+        "address": "新街口2号",
+        "recipient": "李四",
+        "phone": "18912345678"
+      }
+    ],
+    "merchant": {
+      "merchantID": "e20dccdf039b3874",
+      "weixin":{
+        "originID": "gh_af0c5d6c7b66"
+      }
+    },
+    "postPoint": 5000,
+    "postTotalPoint": 10000,
+    "level": "会员",
+    "status": "active",
+    "sinceAt": 1371570826,
+    "dueAt": 1403106826,
+    "createdAt": 1371570826,
+    "account": {
+      "id": "e55825da3bd8d8c3",
+      "name": "曹操",
+      "balance": 10000
+    },
+    "registerShopID": "903d6f6ce857a9eb",
+    "weixin": {
+      "openID": "oGsPwt7oAe-qh-0wG1Idg4ezE0PM"
+    },
+    "shop": {}
+  }
+]
