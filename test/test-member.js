@@ -1,4 +1,5 @@
-var qs = require('qs');
+var should = require('should')
+var qs = require('qs')
 var RestAgent = require('./support/restagent')
 var Member = new RestAgent('members')
 
