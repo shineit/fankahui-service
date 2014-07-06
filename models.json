@@ -7,10 +7,6 @@
     "public": false
   },
   "user": {
-    "properties": {
-      "username": {"type": "String", "required": true},
-      "email": {"type": "String", "required": false}
-    },
     "options": {
       "base": "User",
       "relations": {
@@ -18,7 +14,22 @@
           "model": "accessToken",
           "type": "hasMany",
           "foreignKey": "userId"
+        },
+        "members": {
+          "type": "hasMany",
+          "model": "member",
+          "foreignKey": "userId"
         }
+      }
+    },
+    "properties": {
+      "username": {
+        "type": "String",
+        "required": true
+      },
+      "email": {
+        "type": "String",
+        "required": false
       }
     },
     "dataSource": "db",
@@ -95,6 +106,15 @@
     "public": true
   },
   "member": {
+    "options": {
+      "relations": {
+        "user": {
+          "type": "belongTo",
+          "model": "user",
+          "foreignKey": "userID"
+        }
+      }
+    },
     "properties": {
       "name": {
         "type": "string"
@@ -111,9 +131,7 @@
       "deliveryAddress": {
         "type": "array"
       },
-      "userID": {
-        "type": "string"
-      },
+      "userID":  "string",
       "shop": {
         "type": "object"
       },
@@ -158,5 +176,39 @@
     "public": true,
     "dataSource": "db",
     "plural": "members"
+  },
+  "point": {
+    "properties": {
+      "point": {
+        "type": "number"
+      },
+      "memberID": {
+        "type": "string"
+      },
+      "merchantID": {
+        "type": "string"
+      },
+      "createdAt": {
+        "type": "number"
+      },
+      "postPoint": {
+        "type": "number"
+      },
+      "postTotalPoint": {
+        "type": "number"
+      },
+      "agentID": {
+        "type": "string"
+      },
+      "shopID": {
+        "type": "string"
+      },
+      "reason": {
+        "type": "string"
+      }
+    },
+    "public": true,
+    "dataSource": "db",
+    "plural": "points"
   }
 }
